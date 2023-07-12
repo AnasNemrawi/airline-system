@@ -4,12 +4,12 @@
 [visit](https://github.com/LTUC/amman-javascript-401d17/blob/main/class-12/lab12.md).
 
 ### System
-![system](./assets/)
+![system](./assets/system.png)
 
 ### Piolet
 
-![pilot](./assets/)
+![pilot](./assets/pilot.png)
 
 ### Manager
 
-![manager](./assets/)
+![manager](./assets/manager.png)
