@@ -5,7 +5,13 @@ const http = `http://localhost:${port}`
 const io = require("socket.io-client")
 const socket = io.connect(http)
 
+socket.emit('stord-flight')
 
+socket.on('get-all', payload => {
+    // console.log('Flight:',payload.id,payload.queue);
+    console.log(`'Pilot:Sorry i didn't catch this flight ID `, payload.id);
+
+})
 
 socket.on('newFlight', payload => {
     setTimeout(() => {
@@ -16,6 +22,7 @@ socket.on('newFlight', payload => {
 
         console.log(`Pilot: flight with ID ${payload.Details.flightID} Arrived`);
         socket.emit('Arrived', payload)
+        socket.emit('finished_flight', payload.id)
 
     }, 7000);
 
