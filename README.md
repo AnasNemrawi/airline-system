@@ -1,7 +1,7 @@
 # airline-system 
 
-## Lab 12 socket.io
-### [visit](https://github.com/LTUC/amman-javascript-401d17/blob/main/class-12/lab12.md).
+## Lab 11, 12 and 13 socket.io
+### [Lab Requirements](https://github.com/LTUC/amman-javascript-401d17/blob/main/class-12/lab12.md).
 
 ### System
 ![system](./assets/system.png)
