@@ -13,3 +13,6 @@
 ### Manager
 
 ![manager](./assets/manager.png)
+
+
+> for lap 13 run node system.js then node manager.js then wait for the manager to give tow flights foe the pilot to miss then run node pilot.js
